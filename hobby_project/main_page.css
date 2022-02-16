@@ -1,0 +1,75 @@
+nav a {
+  display: inline;
+  background: rgb(73, 0, 12);
+  padding: 10px;
+  float: right;
+  font-size: 20px;
+  border: 0;
+}
+nav a:hover {
+  background: blue;
+}
+a {
+  text-decoration: none;
+  color: burlywood;
+}
+a:visited {
+  color: white;
+}
+
+hr {
+  background: rgb(73, 0, 12);
+  height: 5px;
+  border: none;
+}
+header img {
+  top: 5px;
+  width: 180px;
+  height: 150px;
+  float: left;
+  left: 4pc;
+  position: absolute;
+}
+
+article {
+  padding-top: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  color: white;
+  background-color: #444;
+  margin-bottom: 5px;
+  border: 1px solid rgb(73, 0, 12);
+  margin: 5px;
+  margin-bottom: 15px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50px;
+}
+section {
+  margin-left: 15px;
+}
+h3 {
+  margin-left: 0px;
+}
+#show {
+  color: red;
+}
+
+article > button {
+  background: rgb(73, 0, 12);
+  padding: 20px;
+  border: 0;
+  border-radius: 25%;
+  color: white;
+}
+article > button:hover {
+  background: blue;
+}
+
+.hide {
+  display: none;
+}

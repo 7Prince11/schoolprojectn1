@@ -1,0 +1,19 @@
+@media print {
+  img {
+    display: none;
+  }
+
+  #no-print {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+
+  #button {
+    display: none;
+  }
+}

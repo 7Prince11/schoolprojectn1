@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "header_main";
+  src: url("fonts/Lobster-Regular.ttf");
+  format: ("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "header";
+  src: url("fonts/OleoScript-Regular.ttf");
+  format: ("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "text";
+  src: url("fonts/OpenSansCondensed-Bold.ttf");
+  format: ("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "footer";
+  src: url("fonts/OleoScript-Bold.ttf");
+  format: ("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  letter-spacing: 2px;
+  font-family: "header_main";
+  text-align: center;
+  background-color: #333;
+  font-size: 30px;
+  color: white;
+  height: 10pc;
+}
+header > h1 {
+  color: white;
+  font-size: 70px;
+}
+
+body {
+  background-color: #202324;
+}
+article {
+  font-family: "text";
+}
+section a {
+  font-family: Verdana;
+}
+
+footer {
+  font-family: "footer";
+}
+h2 {
+  color: burlywood;
+  font-size: 35px;
+}
+.font_iv {
+  font-family: "text";
+  margin: 15px;
+}
+h3 {
+  font-family: "header";
+  font-size: 40px;
+  margin: 15px;
+  color: rgb(255, 255, 255);
+}
+nav a {
+  font-family: "footer";
+}

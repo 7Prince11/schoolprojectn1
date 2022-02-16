@@ -1,0 +1,119 @@
+header img {
+  top: -10px;
+  width: 180px;
+  height: 150px;
+  float: left;
+  left: 4pc;
+  position: absolute;
+}
+nav a {
+  display: inline;
+  background: rgb(73, 0, 12);
+  padding: 10px;
+  float: right;
+  font-size: 20px;
+  border: 0;
+}
+nav a:hover {
+  background: blue;
+}
+a {
+  text-decoration: none;
+  color: burlywood;
+}
+a:visited {
+  color: white;
+}
+hr {
+  background: rgb(73, 0, 12);
+  height: 5px;
+  border: none;
+}
+
+footer {
+  color: white;
+  background-color: #444;
+  margin-bottom: 5px;
+  border: 1px solid rgb(73, 0, 12);
+  margin: 5px;
+  margin-bottom: 15px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+article p {
+  color: white;
+  font-size: 25px;
+  margin: 15px;
+}
+#xxx {
+  height: 250px;
+  width: 250px;
+  float: left;
+  padding-right: 15px;
+}
+article h2 {
+  font-size: 35px;
+  margin: 15px;
+}
+.prev {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  margin-left: -130px;
+  margin-right: 20px;
+  margin-top: 19pc;
+  padding: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(73, 0, 12);
+  background: none;
+  color: white;
+}
+.prev:hover {
+  background: rgb(73, 0, 12);
+}
+.next {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 13pc;
+  padding: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(73, 0, 12);
+  background: none;
+  color: white;
+}
+.next:hover {
+  background: rgb(73, 0, 12);
+}
+.track {
+  font-size: 35px;
+  margin: 15px;
+  color: crimson;
+  font-family: "text";
+}
+.audio {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 25px;
+  color: white;
+}
+img {
+  margin: 15px;
+  height: 20px;
+  width: 30px;
+}
+audio {
+  margin-left: 15px;
+}
+section {
+  margin-left: 15px;
+}
+.font_iv {
+  margin-left: 30px;
+}
